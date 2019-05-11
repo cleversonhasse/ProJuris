@@ -6,7 +6,6 @@ public class FindArrayMain {
 
 	public static void main(String[] args) {
 
-		// Declarações
 		int[] array1 = {4,9,3,7,8};
 		int[] subArray1 = {3,7};
 
@@ -19,7 +18,6 @@ public class FindArrayMain {
 		int[] array4 = {4,9,3,7,8,3,7,1};
 		int[] subArray4 = {3,7};
 
-		// Chamada
 		System.out.println("Resultado 1: " + FindArrayMain.findArray.findArray(array1, subArray1));
 		System.out.println("Resultado 2: " + FindArrayMain.findArray.findArray(array2, subArray2));
 		System.out.println("Resultado 3: " + FindArrayMain.findArray.findArray(array3, subArray3));

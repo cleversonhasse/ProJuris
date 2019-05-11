@@ -35,7 +35,7 @@ public class CalculoMain {
 			System.out.println(custo.getCargo() + ": " + custo.getCusto());
 		}
 
-		System.out.println("\n#####CUSTO TOTAL POR DEPARTAMENTO #####");
+		System.out.println("\n##### CUSTO TOTAL POR DEPARTAMENTO #####");
 		List<CustoDepartamento> custoDepartamento = calculo.custoPorDepartamento(listaFuncionario);
 
 		for (CustoDepartamento custo : custoDepartamento) {
